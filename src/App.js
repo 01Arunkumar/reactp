@@ -1,20 +1,15 @@
 import React, { Component } from 'react';
-/*import Loginform from "./forms/loginForm/Loginform";*/
-/* import SmsApp from './forms/SmsApp'; */
-/*import Showpassword from './forms/loginForm/Showpassword'; */
-import RegistrationForm from './forms/RegistrationForm'; 
+import Table from "./table/Table";
+//import Staticdata from "./table/Staticdata"
 
 class App extends Component {
     render() {
         return (
-            <React.Fragment>
-               {/*<Loginform/>*/}
-                {/*<SmsApp/>*/ }
-              {  /*<Showpassword/>*/}
-              <RegistrationForm/>
-            </React.Fragment>
+            <div>
+              <Table/>  
+            </div>
         )
     }
 }
 
-export default App
+export default App;
